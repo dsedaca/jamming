@@ -1,13 +1,12 @@
 import React from 'react';
-import styles from './SearchBar.module.css';
+import './SearchBar.css';
 
 function SearchBar() {
     return (
-        <>
-            <label for='search'>Test</label>
-            <input id='search' input='text'  />
-        </>
-    )
+        <div className='searchBar'>
+            <input id='search' input='text' />
+        </div>
+    );
 }
 
 export default SearchBar;

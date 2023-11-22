@@ -6,7 +6,11 @@ import './App.css';
 const App = () => {
   return (
     <>
-      <SearchBar />
+      <h1>Jammming</h1>
+      <div className='App'>
+        <SearchBar />
+      </div>
+      
     </>
   );
 }
