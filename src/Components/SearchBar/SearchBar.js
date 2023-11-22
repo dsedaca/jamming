@@ -4,7 +4,8 @@ import styles from './SearchBar.module.css';
 function SearchBar() {
     return (
         <>
-            <p>This is where the search bar is going.</p>
+            <label for='search'>Test</label>
+            <input id='search' input='text'  />
         </>
     )
 }
